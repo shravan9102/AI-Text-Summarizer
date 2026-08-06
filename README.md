@@ -1,16 +1,14 @@
-# 🤖 AI Text Summarizer
-
-An AI-powered Text Summarizer built using **FastAPI**, **PyTorch**, and the **Hugging Face T5 Transformer**. This application summarizes long articles and dialogues into concise and meaningful summaries through a simple web interface.
-
 ## 🚀 Features
 
-- 📝 Summarize long articles and dialogues
-- 🤖 Powered by Hugging Face T5 Transformer
-- ⚡ FastAPI backend
-- 🧹 Automatic text preprocessing
-- 💻 Simple and user-friendly interface
-- 📄 REST API for text summarization
-
+- 📝 Generate concise summaries from long articles and dialogues
+- 🤖 AI-powered abstractive text summarization using Hugging Face T5 Transformer
+- ⚡ FastAPI-based REST API for fast inference
+- 🧹 Automatic text preprocessing and cleaning
+- 💻 Simple, clean, and responsive web interface
+- 📄 Supports summarization of paragraphs, articles, and conversations
+- 🔄 Beam Search-based text generation for improved summary quality
+- 🖥️ CPU and CUDA (GPU) support through PyTorch
+- 🔧 Easy to set up and customize
 ## 🛠️ Tech Stack
 
 - Python
@@ -21,18 +19,15 @@ An AI-powered Text Summarizer built using **FastAPI**, **PyTorch**, and the **Hu
 - CSS
 - JavaScript
 
-## 📂 Project Structure
-
-```text
 AI-Text-Summarizer/
 │── app.py
 │── index.html
+│── requirements.txt
 │── config.json
 │── generation_config.json
 │── tokenizer.json
 │── tokenizer_config.json
-```
-
+│── README.md
 ## ▶️ Installation
 
 1. Clone the repository
@@ -68,6 +63,9 @@ http://127.0.0.1:8000
 ## 📸 Demo
 
 Paste a long article or dialogue and click **Summarize** to generate a concise summary using the T5 Transformer model.
+
+🔗 GitHub Repository:
+https://github.com/shravan9102/AI-Text-Summarizer
 
 ## 📈 Future Improvements
 
